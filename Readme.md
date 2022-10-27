@@ -12,7 +12,7 @@
   </p>
 
   <p>
-  Onshape is used for Authentication . Based on the Authentication , the react-router handles the Authorization and routes the user to the appropriate route. <u>This is a very simple example and should not be used for production.</u>
+  Onshape is used for Authentication . Based on the Authentication , the react-router handles the Authorization and routes the user to the appropriate route. <b>This is a very simple example and should not be used for production.</b>
   </p>
 
   <p>

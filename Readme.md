@@ -6,33 +6,22 @@
     <li>Get user units.</li>
     <li>Get a gltf of an assembly.</li>
     </ol>
+  </p>
+  
+  <p>
+  This consist of both a frontend react client and a backend express node server. Mongo is used to keep track of session data. In production, these are run from a server. This, however, is setup to all run locally.
+  </p>
 
+  <p>
+  Onshape is used for Authentication . Based on the Authentication , the react-router handles the Authorization and routes the user to the appropriate route. <u>This is a very simple example and should not be used for production. </u>
+  </p>
+
+  <p>
+  More info: https://docs.google.com/document/d/1LOu7EGSaq0INMa6WeeXJHs7M6eNUR1J8L1oabaFkexg/edit?usp=sharing
   </p>
 
 <br />
 <br />
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#built-with">Built With</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
-
-
 
 <!-- BUILT WITH -->
 
@@ -42,8 +31,6 @@
 - [Express](https://expressjs.com/)
 - [React](https://reactjs.org/)
 - [NodeJs](https://nodejs.org/en/)
-- [Axios](https://axios-http.com/)
-
 
 <!-- GETTING STARTED -->
 
@@ -52,53 +39,17 @@
 Instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a Mongo URI from [https://cloud.mongodb.com/](https://cloud.mongodb.com/)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/utsavk28/Social
-   ```
-3. Install NPM packages
-   ```sh
-   cd client && npm install
-   ```
-   ```sh
-   cd server && npm install
-   ```
-4. Enter your Mongo URI and JWT Secret Token in `server/config/default.json`
-   ```JSON
-   {
-   	"mongoURI": "mongodb+srv://user:pass@cluster10.uxypi.mongodb.net/test?retryWrites=true&w=majority",
-   	"jwtSecret": "token"
-   }
-   ```
-
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Use this as a template to create your own external Onshape app.
+Use this as a template to create your own external Onshape app using the MERN Stack.
 
+## Required
 
-<!-- CONTRIBUTING -->
+A .env file is require at the root of the client and server.
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+REACT_APP_OS_OAUTH_CLIENT_KEY=4YSL7T6FNVBW4PED4GMJ6ZYWRHJMDWHVTWL2BEY=
 
 <!-- LICENSE -->
 

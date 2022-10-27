@@ -48,7 +48,24 @@ Use this as a template to create your own external Onshape app using the MERN St
 
 A .env file is require at the root of the client and server.
 
-REACT_APP_OS_OAUTH_CLIENT_KEY=4YSL7T6FNVBW4PED4GMJ6ZYWRHJMDWHVTWL2BEY=
+### Client .env
+
+REACT_APP_OS_OAUTH_CLIENT_KEY=<OS_OAUTH_CLIENT_KEY>
+
+### Server .env
+
+PORT=4000
+NODE_ENV=DEVELOPMENT
+APP_NAME=onshape-mern-oauth-external
+SESSION_SECRET=godtac
+OS_OAUTH_CLIENT_KEY=<OS_OAUTH_CLIENT_KEY>
+OS_OAUTH_SECRET_KEY=<OS_OAUTH_SECRET_KEY>
+OS_OAUTH_REDIRECT_URL=http://localhost:4000/oauthRedirect
+OS_OAUTH_AUTHORIZATION_URL=https://oauth.onshape.com/oauth/authorize
+OS_OAUTH_TOKEN_URL=https://oauth.onshape.com/oauth/token
+OS_OAUTH_USER_PROFILE_URL=https://cad.onshape.com/api/users/sessioninfo
+JWT_ACCESS_SECRET=ad4d5548a61ad283abf3f89d361b79b18a37a69970610150ffb2895917f2b71bea
+
 
 <!-- LICENSE -->
 

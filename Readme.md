@@ -1,16 +1,14 @@
-  <!-- <h3 align="center">Social</h3> -->
 
-  <p align="left">
     A MERN Stack app which uses Oauth2 to login to Onshape. There are two simple examples to retrieve data. 
     <ol>
     <li>Get user units.</li>
     <li>Get a gltf of an assembly.</li>
     </ol>
-  </p>
+ 
   
-  <p>
+
   This consist of both a frontend react client and a backend express node server. Mongo is used to keep track of session data. In production, these are run from a server. This, however, is setup to all run locally.
-  </p>
+
 
   <p>
   Onshape is used for Authentication . Based on the Authentication , the react-router handles the Authorization and routes the user to the appropriate route. ***This is a very simple example and should not be used for production.***

@@ -33,7 +33,7 @@ app.use(
     saveUninitialized: false,
     resave: false,
     store: MongoStore.create({
-      mongoUrl: "mongodb://localhost:27017/os-localhost-test",
+      mongoUrl: "mongodb://localhost:27017/onshape-mern-oauth-external",
     }),
     cookie: {
       name: process.env.APP_NAME,
@@ -226,7 +226,6 @@ app.post("/getGltf", async (req, res, next) => {
   // console.log("eid", eid);
 
   // check if it is an assembly
-  // https://cad.onshape.com/api/documents/d/765b1fe5f744ddf7c9dabacb/w/267c1c47b4943c4c7f46a4c8/elements?elementType=e&elementId=a74572fa63caefab3df574e3&withThumbnails=false
 
   const headers = {
     headers: {
@@ -296,7 +295,6 @@ app.post("/getGltf", async (req, res, next) => {
   let requestState = "";
   let resultExternalDataId = null;
   while (requestState != "DONE") {
-    // https://cad.onshape.com/api/translations/62db178a3b82165e16c9f047
     const translationPingURL = `https://cad.onshape.com/api/translations/${translationId}`;
 
     const translationStatus = await getEndpoint(translationPingURL, headers);

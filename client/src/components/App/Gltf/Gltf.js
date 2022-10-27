@@ -5,7 +5,7 @@ import "@google/model-viewer";
 import { useUserContext } from "../../Auth/UserContext";
 
 export default function Gltf() {
-  const [assemblyUrl, setAssemblyUrl] = useState();
+  const [assemblyUrl, setAssemblyUrl] = useState("https://cad.onshape.com/documents/4833676df7d2a808ac4b52b7/w/1779c4496f69618947b539b5/e/75f2654cbbb785c3812333d2");
   const [gltf, setGltf] = useState();
   const { getAccessToken } = useUserContext();
   const accessToken = getAccessToken();
@@ -121,5 +121,4 @@ export default function Gltf() {
   );
 }
 
-// src="https://circuit-case-blog.s3-us-west-1.amazonaws.com/SAND-SPIKE/sand-spike-GLTF-Aligned.gltf?"
 

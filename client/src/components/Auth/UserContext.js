@@ -21,8 +21,9 @@ const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState({});
 
   const handleOauth = () =>
+  // console.log(process.env.OS_OAUTH_CLIENT_KEY)
     window.location.replace(
-      "https://oauth.onshape.com/oauth/authorize?response_type=code&client_id=RFRCQNTGETP3JXZGNWYCLE3QU4CCKKUUK7JP7QA="
+      `https://oauth.onshape.com/oauth/authorize?response_type=code&client_id=${process.env.REACT_APP_OS_OAUTH_CLIENT_KEY}`
     );
 
   const handleLoginData = (token) => {

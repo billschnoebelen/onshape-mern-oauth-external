@@ -16,7 +16,7 @@
   </p>
 
   <p>
-  More info: https://docs.google.com/document/d/1LOu7EGSaq0INMa6WeeXJHs7M6eNUR1J8L1oabaFkexg/edit?usp=sharing
+  Onshape Oauth2 for Dummies(https://docs.google.com/document/d/1LOu7EGSaq0INMa6WeeXJHs7M6eNUR1J8L1oabaFkexg/edit?usp=sharing)
   </p>
 
 <br />

@@ -22,6 +22,14 @@
 <br />
 <br />
 
+<!-- PREREQUISITES -->
+
+## Prerequisites
+
+-[VS Code](https://code.visualstudio.com/)
+-[Node](https://nodejs.org/en/)
+-[Git](https://git-scm.com/downloads)
+
 <!-- BUILT WITH -->
 
 ## Built With

@@ -15,7 +15,7 @@
   Onshape is used for Authentication . Based on the Authentication , the react-router handles the Authorization and routes the user to the appropriate route. <b>This is a very simple example and should not be used for production.</b>
   </p>
 
-  [Onshape Oauth2 for Dummies](https://docs.google.com/document/d/1LOu7EGSaq0INMa6WeeXJHs7M6eNUR1J8L1oabaFkexg/edit?usp=sharing)
+  More Info: [Onshape Oauth2 for Dummies](https://docs.google.com/document/d/1LOu7EGSaq0INMa6WeeXJHs7M6eNUR1J8L1oabaFkexg/edit?usp=sharing)
 
 <br />
 <br />

@@ -16,7 +16,7 @@
   </p>
 
   More Info: 
-  - [Instuctional Video](https://www.youtube.com/watch?v=Vx8E7kW01R4)
+  - [Instructional Video](https://www.youtube.com/watch?v=Vx8E7kW01R4)
   - [Onshape Oauth2 for Dummies](https://docs.google.com/document/d/1LOu7EGSaq0INMa6WeeXJHs7M6eNUR1J8L1oabaFkexg/edit?usp=sharing)
 
 
